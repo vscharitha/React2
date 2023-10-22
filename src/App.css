@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+body{
+  
+  background-image: linear-gradient(to right, #01b3fe , #4be54b);
+}
+.calculator {
+  width: 245px;
+  margin: 25vh auto;
+  /* padding: 10px; */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.calculator.dark {
+  background-color: #010133;
+  color: #fff;
+  border-color: #444;
+}
+
+.display {
+  text-align: right;
+  padding: 10px;
+  height: 100px;
+}
+
+.input {
+  font-size: 1.5em;
+}
+
+.result {
+  font-size: 1.2em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-buttons {
+  text-align: left;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 1.2em;
+  background-color: #f5f5f5;
+  border:none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.mode-buttons{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #d6d6d6 !important;
+  text-align: center;
+}
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #eee;
+}
+
+.calculator.dark button {
+  background-color: #010133;
+  color: #fff;
+  border-color: #444;
+}
+
+.calculator.dark button:hover {
+  background-color: #555;
+}
+
+.calculator.dark button:active {
+  background-color: #444;
+}
